@@ -1,16 +1,30 @@
+:root {
+  --primary-navy-blue-color: #2e2f42;
+  --primary-white-color: #ffffff;
+  --primary-slate-color: #434455;
+  --hover-focus-ocean-color: #404bbf;
+  --primary-font-style: normal;
+  --primary-font-weight: 500;
+  --secondary-font-weight: 400;
+  --primary-font-size: 16px;
+  --secondary-font-size: 20px;
+  --primary-line-height: 24px;
+  --primary-letter-spacing: 0.02em;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  background: #ffffff;
+  background: var(--primary-white-color);
 }
 
 header {
-  background: #ffffff;
+  background: var(--primary-white-color);
   border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
+  font-style: var(--primary-font-style);
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -22,14 +36,14 @@ header {
 }
 
 .logo-accent {
-  font-style: normal;
+  font-style: var(--primary-font-style);
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--primary-navy-blue-color);
 }
 
 .nav-list {
@@ -37,12 +51,12 @@ header {
 }
 
 .nav-link {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  font-style: var(--primary-font-style);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
+  letter-spacing: var(--primary-letter-spacing);
+  color: var(--primary-navy-blue-color);
   text-decoration: none;
 }
 
@@ -51,82 +65,82 @@ header {
 }
 
 .contacts-link {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
+  font-style: var(--primary-font-style);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
+  letter-spacing: var(--primary-letter-spacing);
+  color: var(--primary-slate-color);
   text-decoration: none;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #404bbf;
+  color: var(--hover-focus-ocean-color);
 }
 
 .hero-image {
-  background: #2e2f42;
+  background: var(--primary-navy-blue-color);
 }
 
 h1 {
-  font-style: normal;
+  font-style: var(--primary-font-style);
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
+  letter-spacing: var(--primary-letter-spacing);
+  color: var(--primary-white-color);
 }
 
 button {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-style: var(--primary-font-style);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 button:hover {
-  background: #404bbf;
+  background: var(--hover-focus-ocean-color);
 }
 
 button:focus {
-  background: #404bbf;
+  background: var(--hover-focus-ocean-color);
 }
 
 .title-section {
-  font-style: normal;
+  font-style: var(--primary-font-style);
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--primary-letter-spacing);
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--primary-navy-blue-color);
 }
 
 .title-condition {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  font-style: var(--primary-font-style);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--secondary-font-size);
+  line-height: var(--primary-line-height);
+  letter-spacing: var(--primary-letter-spacing);
+  color: var(--primary-navy-blue-color);
 }
 
 .text-conditon {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
+  font-style: var(--primary-font-style);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
+  letter-spacing: var(--primary-letter-spacing);
+  color: var(--primary-slate-color);
 }
 
 .condition-list {
@@ -138,23 +152,23 @@ button:focus {
 }
 
 .name-surname {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-style: var(--primary-font-style);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--secondary-font-size);
+  line-height: var(--primary-line-height);
   text-align: center;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  letter-spacing: var(--primary-letter-spacing);
+  color: var(--primary-navy-blue-color);
 }
 
 .specialty {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-style: var(--primary-font-style);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
   text-align: center;
-  letter-spacing: 0.02em;
-  color: #434455;
+  letter-spacing: var(--primary-letter-spacing);
+  color: var(--primary-slate-color);
 }
 
 .team-list {
@@ -162,14 +176,14 @@ button:focus {
 }
 
 footer {
-  background: #2e2f42;
+  background: var(--primary-navy-blue-color);
 }
 
 .footer-text {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
+  font-style: var(--primary-font-style);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
+  letter-spacing: var(--primary-letter-spacing);
   color: #f4f4fd;
 }
