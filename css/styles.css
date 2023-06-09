@@ -31,7 +31,6 @@ header {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-iris-color);
@@ -104,7 +103,6 @@ header {
   font-weight: var(--primary-font-weight);
   font-size: var(--primary-font-size);
   line-height: var(--primary-line-height);
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--primary-white-color);
   background-color: var(--primary-iris-color);
@@ -122,7 +120,7 @@ header {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: var(--primary-letter-spacing);
+  letter-spacing: var(--secondary-letter-spacing);
   text-transform: capitalize;
   color: var(--primary-navy-blue-color);
 }
